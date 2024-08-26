@@ -71,7 +71,7 @@ module.exports = ({product, error, categories, brands, specials}) => {
 
     const renderedSpecials = specials.map(special => {
         if (product.specialID) {
-            if (product.specialID.toString() === special._id.toString()) {
+            if (product.ID.toString() === special._id.toString()) {
                 return `
                    <option value="${special._id}" selected>${special.special_name}</option> 
                 `

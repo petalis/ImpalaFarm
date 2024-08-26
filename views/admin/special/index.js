@@ -40,7 +40,7 @@ module.exports = ({specials}) => {
             `}).join('')
 
     const printAddButton = (specials) => {
-        if (specials.length<=2){
+        if (specials.length<=100){
             return `<button type="button" class="btn btn-primary mt-4 me-3" style="font-size: 0.8rem" onclick="location.href='/admin/special/new'">Add New Special Category</button>`
         } else return ""
     }
@@ -49,7 +49,7 @@ module.exports = ({specials}) => {
         title: title,
         content: `<div id="viewProducts" class="card ">
         <div class="d-flex justify-content-between">
-        <h4 class="special-heading">Only a maximum of 3 special categories is allowed!</h4>
+        <h4 class="special-heading"> SPECIAL CATEGORIES</h4>
         ${printAddButton(specials)}
     </div> 
     <div class="card-body table-responsive">

@@ -14,7 +14,7 @@ module.exports = ({title, req, content, categories}) => {
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="${process.env.META_DESCRIPTION}">
     <meta property="og:image" content="/img/logo.webp">
-    <meta name="author" content="Faiz Ahmed">
+    <meta name="author" content="petalis">
     
     <!-- Maps   -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
@@ -164,7 +164,7 @@ ${content}
     </div>
 
     <div class="footer2 text-center p-2">
-        &copy; ${process.env.BUSINESS_NAME} <span id="copyright"> 2022</span>. All Rights Reserved.
+        &copy; ${process.env.BUSINESS_NAME} <span id="copyright"> 2024</span>. All Rights Reserved.
     </div>
 </section>
 

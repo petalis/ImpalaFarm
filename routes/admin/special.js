@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
 
     const specials = await Special.find()
 
-    if (specials.length<=2){
+    if (specials.length<=1000){
         const special = new Special({
             special_name: req.body.special_name
         })
