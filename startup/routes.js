@@ -1,4 +1,5 @@
 const express = require('express');
+//const cors = require('cors');
 const cookieSession = require('cookie-session');
 const error = require('../middlewares/error');
 const adminLoginMiddleware = require('../middlewares/adminLoginMiddleware');
@@ -29,8 +30,10 @@ const inventory = require('../routes/pos/inventory');
 
 
 module.exports = function (app) {
+    //app.use(cors());
     app.use(express.json());
     app.use(express.urlencoded({extended: true}));
+
     app.use(cookieSession({
         name: 'session',
         keys:['cookieSessionKey']

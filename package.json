@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "prod-server": "http-server build -p 9876",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +18,8 @@
     "compression": "^1.7.4",
     "config": "^3.3.6",
     "cookie-session": "^1.4.0",
-    "dotenv": "^16.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "emailjs": "^3.5.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
