@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "prod-server": "http-server build -p 9876",
-    "build": "react-scripts build"
+    "build": "serve -s build"
   },
   "keywords": [],
   "author": "",
