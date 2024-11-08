@@ -19,4 +19,4 @@ const port = 3000
 app.listen(port, 'localhost', () => {
     winston.info(`Listening at port ${port}.....`);
 });
-serviceWorkerRegistration.register();
+//serviceWorkerRegistration.register();
