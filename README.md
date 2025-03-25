@@ -1,4 +1,4 @@
-About
+ About
 
 This is a fully functional e-commerce website created using HTML, Sass, JS, Node and MongoDB. It is fast, has good SEO and is fully responsive across all screens. It uses Google Maps api to calculate delivery fee and give accurate directions for efficient deliveries. The payment system is powered by daraja api which enables m-pesa, Kenya's most popular payment system. Lastly, It's integrated with Google Analytics and Facebook Pixel to boost sales.
 Pre requisites for running repo
